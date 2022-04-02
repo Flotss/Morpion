@@ -43,7 +43,6 @@ public class MorpionTest {
     Personnage [] joueurs = m.getJoueurs();
     Personnage joueur1 = joueurs[0];
 
-    // Joueur 1
     m.jouer(0, 0, joueur1);
     m.jouer(0, 1, joueur1);
     m.jouer(0, 2, joueur1);
@@ -60,7 +59,6 @@ public class MorpionTest {
     Personnage[] joueurs = m.getJoueurs();
     Personnage joueur1 = joueurs[0];
 
-    // Joueur 1
     m.jouer(0, 0, joueur1);
     m.jouer(1, 0, joueur1);
     m.jouer(2, 0, joueur1);
@@ -76,7 +74,6 @@ public class MorpionTest {
     Personnage[] joueurs = m.getJoueurs();
     Personnage joueur1 = joueurs[0];
 
-    // Joueur 1
     m.jouer(0, 0, joueur1);
     m.jouer(1, 1, joueur1);
     m.jouer(2, 2, joueur1);
@@ -94,7 +91,6 @@ public class MorpionTest {
     Personnage [] joueurs = m.getJoueurs();
     Personnage joueur1 = joueurs[0];
     Personnage joueur2 = joueurs[1];
-    // Joueur 1
 
     m.jouer(0, 1, joueur1);
     m.jouer(0, 2, joueur1);
@@ -102,7 +98,6 @@ public class MorpionTest {
     m.jouer(1, 1, joueur1);
     m.jouer(2, 2, joueur1);
 
-    // Joueur 2
     m.jouer(0, 0, joueur2);
     m.jouer(1, 2, joueur2);
     m.jouer(2, 0, joueur2);
